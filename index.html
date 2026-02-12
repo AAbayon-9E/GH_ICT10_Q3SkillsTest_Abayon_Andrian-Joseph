@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+
+    <title>Account Creation</title>
+</head>
+<body>
+    <h1>Create Account</h1>
+    <form>
+        <input type="text" id="name"><br><br>
+        <input type="text" id="input1"><br><br>
+        <input type="button" py-click="create" value="Sign up">
+
+    </form>
+    <br>
+
+    <div id="result" style="color: purple; font-size: 15px;"></div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
